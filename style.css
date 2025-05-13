@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.left-panel {
+    padding-left: 15px;
+    /* background-color: aqua; */
+    width: 272px;
+    height: 950px ;
+    border-right: 1px solid #ccc;
+    color: #717784;
+    font-size: 14px;
+}
+
+.caixa-filtros {
+    width: 240px;
+    height: 565px;
+    font-family: "Inter";
+}
+
+.width-filtros {
+    width: 240px;
+    height: 84px;}
+
+.espaçamento {
+    width: 240px;
+    height: 10px;
+}
+
+.center {
+    /* background-color: blueviolet; */
+     border-top: 1px solid #ccc;
+    height: 20px;
+}
+
+.top-filtros {
+/* background-color: coral; */
+width: 240px;
+height: 463px;
+
+}
+.caixa-filtros button  {
+    background-color: #ccc;
+    width: 240px;
+    height: 40px;
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+}
+
+.width-filtros :hover, .top-filtros :hover {
+    background-color: rgb(158, 156, 156);
+    color: white;
+}
+
+.width-filtros, .top-filtros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.width-filtros img, .top-filtros img {
+    padding-right: 10px;
+}
+
+.seta {
+    padding-left: 80px;
+}
+
